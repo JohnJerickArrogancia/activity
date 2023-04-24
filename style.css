@@ -1,0 +1,26 @@
+#container {
+	margin: 0 auto;
+	width: 600px;
+}
+
+#score {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#board {
+	border: 1px solid black;
+	height: 300px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+.note {
+	background-color: red;
+	height: 50px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 50px;
+}
